@@ -1,0 +1,5 @@
+v0.1.5: inclusion of all Z'/W' processes at LO. 
+v0.1.4: inclusion of all the SUSY slepton/sneutrino processes at LO.
+v0.1.3: pt + mass distributions for slepton pairs at LO. 
+v0.1.2: total cross section for sleptons pairs at LO
+v0.1.1: SLHA reader for SUSY

@@ -1,0 +1,16 @@
+./RUN "p p > seL- seL+" 7000 400 input/sps1ap.in "tot" 1 1
+  - The first argument is the process under consideration given as a string. 
+    For the initial state, the allowed choices are p (proton) and pb (antiproton).
+    For the final state, the allowed choices are seL-, smuL-, stau1-, snue,
+snumu, etc...
+  - The second argument is the center-of-mass energy in GeV.
+  - The third argument is the pdfset to be used at NLO/NLL. 
+    In the case of LO, we do not care. < 1000 = CTEQ; > 1000 = MSTW;
+  - The fourth argument is the path to the SLHA input file
+  - The fifth argument is a string related to the calculation to perform. The
+    allowed choices are "tot" (total cross section), "pt = val" (dsigma/dpt at
+    pt = val) and "M = val" (dsigma/dM at M - val). For the moment, only "tot"
+    does return a result.
+  - The last two arguments are the scale factors. For total cross section, the
+    central scales are taken as the average final mass.
+
